@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #f6e5d4;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.middle {
+  background-color: white;
+  border-radius: 0.5em;
+  padding-top: 1.5em;
+  padding-left: 1em;
+}
+
+.bottom {
+  background-color: white;
+  border-radius: 0.5em;
+  display: flex;
+  gap: 6em;
+  padding: 0 0.5em;
+  height: 5.5em;
+}
+
+.top {
+  background-color: #ec775f;
+  height: 7em;
+  border-radius: 0.5em;
+  color: white;
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+
+img {
+  width: 4em;
+  margin-right: 1.5em;
+}
+
+.balance {
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.middle h1 {
+  color: #2a2319;
+  font-size: 1.6rem;
+  margin-bottom: 3em;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chart p {
+  color: #2a2319;
+}
+
+.chartmon {
+  width: 2em;
+  height: 3em;
+  background-color: #e55f4c;
+  border-radius: 0.2em;
+  margin-top: 6.5em;
+}
+
+.chartmon:hover {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+.charttue:hover {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+.chartwed:hover {
+  background-color: #a7d9df;
+  cursor: pointer;
+}
+.chartthu:hover {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+.chartfri:hover {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+.chartsat:hover {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+.chartsun:hover {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+.charttue {
+  width: 2em;
+  height: 6em;
+  background-color: #e55f4c;
+  border-radius: 0.2em;
+  margin-top: 3.5em;
+}
+.chartwed {
+  width: 2em;
+  height: 9em;
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 0.2em;
+}
+.chartthu {
+  width: 2em;
+  height: 5em;
+  background-color: #e55f4c;
+  border-radius: 0.2em;
+  margin-top: 4.5em;
+}
+.chartfri {
+  width: 2em;
+  height: 4em;
+  background-color: #e55f4c;
+  border-radius: 0.2em;
+  margin-top: 5.5em;
+}
+.chartsat {
+  width: 2em;
+  height: 7em;
+  background-color: #e55f4c;
+  border-radius: 0.2em;
+  margin-top: 2.5em;
+}
+.chartsun {
+  width: 2em;
+  height: 4.5em;
+  background-color: #e55f4c;
+  border-radius: 0.2em;
+  margin-top: 5em;
+}
+
+.num {
+  width: 2.5em;
+  height: 2em;
+  background-color: #2b180e;
+  border-radius: 0.2em;
+  margin-bottom: 0.5em;
+  padding-top: 0.3em;
+}
+
+.num p {
+  color: white;
+  font-size: 0.7rem;
+  padding-left: 0.3em;
+  padding-top: 0.3em;
+}
+
+.num1 {
+  margin-top: 4em;
+  position: absolute;
+  visibility: hidden;
+}
+.num2 {
+  margin-top: 1em;
+  position: absolute;
+  visibility: hidden;
+}
+
+.num3 {
+  visibility: hidden;
+}
+
+.num4 {
+  margin-top: 2em;
+  position: absolute;
+  visibility: hidden;
+}
+.num5 {
+  margin-top: 3em;
+  position: absolute;
+  visibility: hidden;
+}
+
+.num6 {
+  margin-top: 0.1em;
+  position: absolute;
+  visibility: hidden;
+}
+
+.num7 {
+  margin-top: 2.5em;
+  position: absolute;
+  visibility: hidden;
+}
+
+.wed {
+  margin-top: -2em;
+}
+
+.sun {
+  margin-right: 1em;
+}
+
+hr {
+  border: 1px solid #f3e0cb;
+  margin-top: 1.5em;
+  width: 21em;
+  margin-left: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.total p {
+  margin-bottom: 0.5em;
+}
+
+.percent h4 {
+  margin-left: 4.5em;
+}
+
+.percent {
+  margin-top: 1.4em;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.remove {
+  visibility: hidden;
+}
